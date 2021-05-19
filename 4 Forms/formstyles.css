@@ -1,0 +1,126 @@
+/*A CSS reset. Resets all these element's default margin
+  and padding values to 0. A common modern technique. */
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('images/background.jpg');
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
+
+/*Form styles*/
+
+form#payment{
+	background:#9cbc2c;
+	border-radius:5px;
+	padding:20px;
+	width:400px;
+	margin:0px auto;
+}
+
+form#payment fieldset{
+	border:0px;
+	margin-bottom:20px;
+}
+
+form#payment fieldset:last-of-type{
+	margin-bottom:0px;
+}
+
+form#payment legend{
+	color:#384313;
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+	text-shadow:0px 1px 1px #C0D576;
+}
+
+form#payment fieldset fieldset legend{
+	color:#111;
+	font-size:13px;
+	font-weight:normal;
+	padding-bottom:0px;
+}
+
+form#payment ol li{
+	background:#B9CF6A;
+	border:2px solid #E3EBC3;
+	border-radius:5px;
+	line-height:30px;
+	list-style:none;
+	padding:5px 10px;
+	margin-bottom:2px;
+}
+
+form#payment ol ol li{
+	background:none;
+	border:none;
+	float:left;
+}
+
+form#payment label{
+	float:left;
+	font-size:13px;
+	width:110px;
+}
+
+form#payment fieldset fieldset label{
+	background:none no-repeat left 50%;
+	line-height:20px;
+	padding:0px 0px 0px 30px;
+	width:auto;
+}
+
+/*Radio button label styles*/
+form#payment label[for='visa'] {
+	background-image: url('images/visa.gif');
+	}
+form#payment label[for='amex'] {
+	background-image: url('images/amex.gif');
+	}
+form#payment label[for='mastercard'] {
+	background-image: url('images/mastercard.gif');
+	}
+
+form#payment fieldset fieldset label:hover{
+	cursor:pointer;
+}
+
+form#payment input:not([type='radio']),
+	form#payment textarea{
+		background:#FFF;
+		border:none;
+		border-radius:3px;
+		font:italic 13px Georgia, "Times New Roman", Times, serif;
+		padding:5px;
+		width:220px;
+}
+
+form#payment input:focus,
+form#payment textarea:focus {
+	background: #eaeaea;
+}
+
+form#payment input[type='radio'] {
+	float: left;
+	margin-right: 5px;
+}
+
+form#payment button {
+	background: #384313;
+	border:none;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+

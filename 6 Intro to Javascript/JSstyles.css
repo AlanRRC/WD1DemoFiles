@@ -1,0 +1,50 @@
+body{
+	font-family:Tahoma;
+	padding:10px;
+	width:500px;
+	margin: 20px auto;
+	background-color: #D86E3F;
+}
+
+.main, section{	
+	width:400px;
+	background-color: #4499CC;
+	color:#FFF;
+	margin: 10px auto;
+	border: 2px #369 solid;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#favoriteNumber{
+	width:400px;
+	margin: 20px auto;
+	background-color: #4499CC;
+	padding: 10px;
+	border: 3px solid #4466FF;
+	border-radius: 8px; 
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	width: 280px;
+	background-color: #4488FF;
+	margin: 10px;
+	padding: 5px;
+	border:1px solid #FFF;
+}
+
+ul li label{
+	float: left;
+	width: 120px;
+	color: #FFF;
+}
+
+input:focus{
+	background-color: #FFF;
+	color:#4499CC;
+	font-weight: bold;
+}

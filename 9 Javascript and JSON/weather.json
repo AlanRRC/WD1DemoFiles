@@ -1,0 +1,37 @@
+[
+      {
+        "name": "Winnipeg",
+        "temperature": "27",
+        "conditions": "Hazy",
+        "winds": "NW 7kph",
+        "humidity": "90%"
+      },
+      {
+        "name": "Fredricton",
+        "temperature": "16",
+        "conditions": "Overcast",
+        "winds": "W 15kph",
+        "humidity": "70%"
+      },
+      {
+        "name": "Vancouver",
+        "temperature": "22",
+        "conditions": "Rain",
+        "winds": "W 17kph",
+        "humidity": "100%"
+      },
+      {
+        "name": "Sudbury",
+        "temperature": "31",
+        "conditions": "Sunny",
+        "winds": "NW 7kph",
+        "humidity": "20%"
+      },
+      {
+        "name": "Halifax",
+        "temperature": "21",
+        "conditions": "Overcast",
+        "winds": "SW 27kph",
+        "humidity": "100%"
+      }
+]

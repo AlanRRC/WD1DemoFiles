@@ -1,0 +1,118 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+html
+{
+	background-color: #cc0;
+}
+
+#wrapper
+{
+	width: 750px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+
+fieldset
+{
+	margin-bottom: 30px;
+	padding: 5px;
+	border: none;
+}
+
+fieldset:last-child
+{
+	margin-bottom: 0px;
+}
+
+hr
+{
+	margin-bottom: 15px;
+}
+
+legend
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 14pt;
+}
+
+h3
+{
+	margin: 0px 0px 10px 0px;
+}
+
+label
+{
+	font-size: 12pt;
+}
+
+.student
+{
+	width: 130px;
+	display: inline-block;
+	text-align: right;
+}
+
+.student_error
+{
+	margin-left: 130px;
+}
+
+.major
+{
+	width: 80px;
+	display: inline-block;
+	text-align: right; 
+}
+
+#bitmajordiv, #bamajordiv, #majorheading
+{
+	display: none;
+}
+
+input[type=text], input[type=submit], input[type=reset]
+{
+	padding: 5px 5px;
+}
+
+.formfield
+{
+	
+	margin: 10px 0px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.error
+{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 0;
+	display: none;
+}

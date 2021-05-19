@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<weatherReport>
+    <name>Winnipeg</name>
+    <temperature>27</temperature>
+    <conditions>Hazy</conditions>
+    <winds>NW 7kph</winds>
+    <humidity>100%</humidity>    
+</weatherReport>

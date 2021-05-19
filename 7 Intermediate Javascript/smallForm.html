@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Pass or Fail</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="smallformstyles.css" />
+		<script type="text/javascript" src="passfail.js"></script>
+	</head>
+	<body>
+		<div id="passfail">
+			<ol>
+				<li>
+					<label for="name">Name</label>
+					<input id="name" name="name" type="text" autofocus />
+				</li>
+				<li>
+					<label for="mark">Mark</label>
+					<input id="mark" name="mark" type="number" />
+				</li>
+				<li>
+					<button id="submit">Submit</button>
+				</li>
+			</ol>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Mark</th>
+					<th>Pass/Fail</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Sample Output
+				<tr>
+					<td>Alan</td>
+					<td>99</td>
+					<td>Pass</td>
+				</tr>
+				-->
+			</tbody>
+		</table>
+		<footer>
+			<button id="clearbutton">Clear</button>
+		</footer> 
+	</body>
+</html>

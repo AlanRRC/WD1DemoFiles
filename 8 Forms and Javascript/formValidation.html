@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="formstyle.css"/>
+		<script type="text/javascript" src="formvalidation.js"></script>
+		<title>Student Survey</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<form method="post" 
+				  id="survey_form" 
+				  action="http://symlink.dk/code/php/submit/">
+				<fieldset>
+					<legend>Student Information</legend>
+					<hr />
+					<div class="formfield">
+						<label for="fname" class="student">First Name:</label>
+						<input type="text" id="fname" name="fname" size="30" maxlength="15" value="" autofocus="autofocus" />					
+						<div class="student_error error" id="fname_error">* Please enter your first name.</div>
+					</div>
+					<div class="formfield">
+						<label for="lname" class="student">Last Name:</label>
+						<input type="text" id = "lname" name="lname" size="30" maxlength="20" />
+						<div class="student_error error" id="lname_error">* Please enter your last name.</div>
+					</div>
+					<div class="formfield">
+						<label for="studentnum" class="student">Student Number:</label>
+						<input type="text" id="studentnum" name="studentnum" size="20" maxlength="7" />
+						<div class="student_error error" id="studentnum_error">* Please enter a valid student number.</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Program Information</legend>
+					<hr />
+					<h3>Which program are you enrolled in?</h3>
+					<input type="radio" name="program" id="bit" value="BIT" /> <label for="bit">BIT</label><br />
+					<input type="radio" name="program" id="aviation" value="Aviation" /> <label for="aviation">Aviation</label><br />
+					<input type="radio" name="program" id="accounting" value="AppliedAccounting" /> <label for="accounting">Applied Accounting</label><br />
+					<input type="radio" name="program" id="ba" value="BA" /> <label for="ba">BA</label>
+					<div class="error" id="program_error">* Please choose your program.</div>
+					<div id="majorheading">
+					<br /><br />
+					<h3>Major Information</h3>
+					</div>
+					<div id="bitmajordiv" class="formfield">
+						<label for="bitmajor" class="major">BIT Major:</label>
+						<input type="text" id="bitmajor" name="bitmajor" size="30" maxlength="30" />
+						<div class="error" id="bitmajor_error">* Please enter your major.</div>
+					</div>
+					<div id="bamajordiv" class="formfield">
+						<label for="bamajor" class="major">BA Major:</label>
+						<input type="text" id="bamajor" name="bamajor" size="30" maxlength="30" />
+						<div class="error" id="bamajor_error">* Please enter your major.</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Comments Section</legend>
+					<hr />
+					<label for="feedback">Is there any way we can serve you better?</label><br />
+					<textarea id="feedback" name="feedback" rows="8" cols="50"></textarea>
+				</fieldset>
+				<fieldset>
+					<hr />
+					<input type="reset" value="Clear Survey" />
+					<input type="submit" value="Process Survey" />
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
