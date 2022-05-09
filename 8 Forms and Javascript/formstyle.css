@@ -5,16 +5,17 @@
 	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-html
-{
-	background-color: #cc0;
+html{
+	background-color: #FFD;
 }
 
-#wrapper
-{
-	width: 750px;
-	margin: 0 auto;
+
+div#wrapper{
+	width: 50%;
+	margin: 20px auto;
 	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 8px #000;
 	padding: 20px;
 }
 
@@ -48,9 +49,18 @@ h3
 	margin: 0px 0px 10px 0px;
 }
 
+ul{
+	list-style: none;
+	margin: 0;
+}
+
 label
 {
 	font-size: 12pt;
+}
+
+input:not(input[type="radio"]){
+	width: 200px;
 }
 
 .student
@@ -77,9 +87,13 @@ label
 	display: none;
 }
 
-input[type=text], input[type=submit], input[type=reset]
+input[type=text], button[type=submit], button[type=reset]
 {
 	padding: 5px 5px;
+}
+
+textarea{
+	width: 90%;
 }
 
 .formfield
