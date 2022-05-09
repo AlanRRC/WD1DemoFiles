@@ -9,23 +9,23 @@
 */
 
 //	Add the event listener to run when the page is loaded
-document.addEventListener("DOMContentLoaded",load);
+document.addEventListener("DOMContentLoaded", load);
 
-function load(){
+function load() {
 
-    fetch('weather.json')
-    	.then(function(result){
-    		return result.json();
-    	})
-    	.then(function(data){
-    		createWeather(data);
-    	});
+	fetch('weather.json')
+		.then(function (result) {
+			return result.json();
+		})
+		.then(function (data) {
+			createWeather(data);
+		});
 }
 
 //	Loop through the cities in the JSON
 //	Build a section, h1, ul and lis for each city
-function createWeather(weatherData){
-
+function createWeather(weatherData) {
+	console.table(weatherData)
 }
 
 
