@@ -5,30 +5,27 @@
 	DOM elements that will display the information.
 
 	Alan Simpson
-	10.30.2019
+	10.30.2022
 */
 
-//	Add the event listener to run when the page is loaded
-document.addEventListener("DOMContentLoaded", load);
-
-function load() {
-
+const load = () => {
 	fetch('weather.json')
-		.then(function (result) {
+		.then(result => {
 			return result.json();
 		})
-		.then(function (data) {
+		.then(data => {
 			createWeather(data);
 		});
 }
 
 //	Loop through the cities in the JSON
 //	Build a section, h1, ul and lis for each city
-function createWeather(weatherData) {
+const createWeather = (weatherData) => {
 	console.table(weatherData)
 }
 
-
+//	Add the event listener to run when the page is loaded
+document.addEventListener("DOMContentLoaded", load);
 
 
 
