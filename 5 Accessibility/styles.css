@@ -1,0 +1,40 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+div#images,
+div#contrast,
+div#links,
+div#semantics {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.5em;
+}
+
+div#images img {
+	display: block;
+	margin: 5px;
+	width: 400px;
+	border: 1px solid #000;
+	box-shadow: 2px 2px 4px #000;
+}
+
+div#contrast p {
+	background-color: aqua;
+	color: rgba(78, 187, 226, 0.933);
+	columns: 2;
+}
+
+div#article {
+	flex: 3;
+}
+
+div#sidebar {
+	flex: 1;
+}
