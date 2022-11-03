@@ -27,14 +27,14 @@ div#images img {
 
 div#contrast p {
 	background-color: aqua;
-	color: rgba(78, 187, 226, 0.933);
+	color: lightblue;
 	columns: 2;
 }
 
-div#article {
+#article {
 	flex: 3;
 }
 
-div#sidebar {
+#aside {
 	flex: 1;
 }

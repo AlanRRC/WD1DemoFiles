@@ -1,0 +1,360 @@
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
+
+body {
+	width: 1000px;
+	margin: 10px auto;
+	font-family: 'Carrois Gothic';
+}
+
+fieldset#orderInfo,
+fieldset#paymentInfo {
+	border-radius: 10px;
+	margin: 15px auto;
+	box-shadow: 2px 2px 4px #ccc, -2px -2px 4px #ccc;
+}
+
+fieldset#cardTypes,
+fieldset#cardInfo {
+	border-radius: 10px;
+}
+
+ul,
+ol {
+	list-style: none;
+	display: inline;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+/*	Styles for the Order Products area*/
+
+#orderInfo h3 {
+	margin-bottom: 0px;
+}
+
+#orderInfo .right {
+	float: right;
+	width: 25%;
+}
+
+#orderInfo .left {
+	float: left;
+	width: 75%;
+}
+
+#products li {
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: 5px auto;
+}
+
+#products li p {
+	font-size: 0.8em;
+	width: 80%;
+	vertical-align: top;
+	float: left;
+}
+
+#products li p img {
+	float: left;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-left: 15px;
+	width: 80px;
+	height: 80px;
+}
+
+#products li input {
+	width: 20px;
+	display: inline-block;
+	margin-top: 20px;
+	vertical-align: top;
+	text-align: right;
+	color: #333;
+}
+
+#products li button {
+	height: 23px;
+	margin-top: 20px;
+	margin-left: 2px;
+	color: #333;
+}
+
+#products span {
+	margin-top: 10px;
+	display: block;
+	font-size: 1.7em;
+}
+
+#products span,
+#cart span {
+	font-weight: bold;
+	padding-left: 3px;
+}
+
+div.quantityField {
+	float: right;
+	text-align: right;
+	width: 15%;
+}
+
+/* End of Order Products styles */
+
+/* Cart styles */
+
+#cart li {
+	border: 1px black solid;
+	background: #eee;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 5px 5px;
+}
+
+#cart li img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+#cart li p {
+	font-size: 0.75em;
+	display: block;
+	padding: 2px;
+}
+
+#cart li button {
+	height: 23px;
+	color: #333;
+	float: right;
+	margin-top: 8px;
+}
+
+#cart #total {
+	font-size: 1em;
+	background-color: green;
+	color: #fff;
+}
+
+#cart #total p {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#cart li p.noitems {
+	color: #aaa;
+}
+
+/* End of cart styles */
+
+/* Start of Shipping Information styles */
+
+#paymentInfo .left {
+	float: left;
+	width: 50%;
+}
+
+#paymentInfo .right {
+	float: right;
+	width: 50%;
+}
+
+#paymentInfo h3 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#paymentInfo .left ul li {
+	width: 90%;
+	/*background: #EEE;*/
+	/*border:1px solid black;*/
+	border-radius: 5px;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#paymentInfo .left label {
+	display: inline-block;
+	width: 100px;
+	margin-top: 2px;
+}
+
+#paymentInfo .left input {
+	display: inline-block;
+	width: 50%;
+	height: 26px;
+	padding-left: 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+#paymentInfo .left select {
+	display: inline-block;
+	height: 30px;
+	padding-left: 5px;
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 3px;
+	color: #333;
+}
+
+#gotoShipping {
+	margin-left: 15px;
+	width: 90%;
+	font-size: 0.8em;
+}
+
+#gotoShipping a:link,
+#gotoShipping a:visited {
+	color: blue;
+}
+
+#gotoShipping a:hover,
+#gotoShipping a:focus {
+	text-decoration: none;
+}
+
+/* End of Shipping Information styles */
+
+/* Start of Payment Information styles */
+
+#cardTypes,
+#cardInfo {
+	margin-top: 40px;
+}
+
+/*	Radio button styles */
+
+#cardTypes ol li {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#cardTypes label {
+	background: none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0px 0px 0px 30px;
+	width: auto;
+	margin-right: 15px;
+}
+
+#cardTypes input {
+	margin-left: 25px;
+}
+
+#cardTypes label[for='visa'] {
+	background-image: url('images/visa.gif');
+}
+
+#cardTypes label[for='amex'] {
+	background-image: url('images/amex.gif');
+}
+
+#cardTypes label[for='mastercard'] {
+	background-image: url('images/mastercard.gif');
+}
+
+#cardTypes label:hover {
+	cursor: pointer;
+}
+
+#cardInfo input {
+	display: inline-block;
+	width: 50%;
+	height: 26px;
+	padding-left: 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+#cardInfo select {
+	display: inline-block;
+	height: 30px;
+	padding-left: 5px;
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 3px;
+	color: #333;
+}
+
+#cardInfo li {
+	width: 90%;
+	/*background: #EEE;
+	border: 1px solid black;
+	border-radius: 5px;*/
+	padding: 8px 10px;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#cardInfo label {
+	display: inline-block;
+	width: 120px;
+	margin-top: 2px;
+}
+
+/* End of Payment Information styles */
+
+/* Error Styles */
+
+.error {
+	display: none;
+	color: red;
+}
+
+.shippingError {
+	margin-left: 110px;
+}
+
+.cardError {
+	margin-left: 130px;
+}
+
+.cardTypeError {
+	margin-left: 30px;
+}
+
+/* End of Error Styles 8?
+
+/* Submit Button */
+
+#submit,
+#clear {
+	/*display: block;
+	background:#C1F0F6;
+	color:#000;
+	border:none;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #000;
+	font-size: 1.1em;
+	margin:3px auto;
+	height: 40px;
+	width:160px;
+	float:right;*/
+	height: 36px;
+	color: #333;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+#submit {
+	margin-right: 15px;
+}
+
+#submit:hover,
+#clear:hover {
+	/*box-shadow: 2px 2px 2px #000;*/
+	cursor: pointer;
+}
