@@ -1,85 +1,84 @@
-*{
-	box-sizing:border-box;
+* {
+	box-sizing: border-box;
 }
 
-body{
-	width:500px;
-	margin:50px auto;
-	font-family:Arial,Helvetica,sans-serif;
+body {
+	width: 500px;
+	margin: 50px auto;
+	font-family: Arial, Helvetica, sans-serif;
 	background: url('images/winnipeg.jpg') no-repeat center center fixed;
 	background-size: 100%;
 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-section{
+section {
 	padding: 20px 0px;
 	margin-top: 20px;
 	width: 100%;
-	background-color: rgba(255,255,255,.8);
+	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 5px;
 	box-shadow: 1px 1px 2px #633;
 }
-	h1{
-		font-size: 1.9em;
-		color:#339;
-		text-shadow:1px 1px 2px #993;
-		text-align: center;
-		margin: 0;
-	}
+h1 {
+	font-size: 1.9em;
+	color: #339;
+	text-shadow: 1px 1px 2px #993;
+	text-align: center;
+	margin: 0;
+}
 
-	ul{
-		list-style: none;
-		width:100%;
-		margin:0px auto 20px;
-	}
+ul {
+	list-style: none;
+	width: 100%;
+	margin: 0px auto 20px;
+}
 
-		ul li{
-			margin:10px auto;
-			padding: 20px 0px;
-			height:45px;
-			font-size: 1.2em;
-			line-height: 45px;
-		}
+ul li {
+	margin: 10px auto;
+	padding: 20px 0px;
+	height: 45px;
+	font-size: 1.2em;
+	line-height: 45px;
+}
 
-			label{
-				display: inline-block;
-				width:200px;
-				padding:0;
-				float: left;
-				text-align: left;	
-				text-shadow:1px 1px 2px #993;
-				text-transform: capitalize;
-			}
+label {
+	display: inline-block;
+	width: 200px;
+	padding: 0;
+	float: left;
+	text-align: left;
+	text-shadow: 1px 1px 2px #993;
+	text-transform: capitalize;
+}
 
-			span{
-				display: inline-block;
-				color:#FFF;
-				font-weight: bold;
-				float: left;
-				text-align: left;
-				padding-left: 30px;
-				width:180px;
-				text-shadow:1px 1px 2px #923;
-				background-color: rgba(30,144,255,.6);
-				box-shadow: 1px 1px 2px #923;
+span {
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	text-align: left;
+	padding-left: 30px;
+	width: 180px;
+	text-shadow: 1px 1px 2px #923;
+	background-color: rgba(30, 144, 255, 0.6);
+	box-shadow: 1px 1px 2px #923;
+}
+.clear {
+	height: 1px;
+	clear: both;
+}
 
-			}
-	.clear{
-		height:1px;
-		clear:both;
-	}
+footer {
+	background-color: rgba(255, 255, 255, 0.8);
 
-	footer{
-		background-color: rgba(255,255,255,.8);
-
-		font-size: .6em;
-		text-align: center;
-		margin:20px auto;
-		border-top:1px solid #000;
-		text-transform: uppercase;
-		border-radius: 2px;
-		box-shadow: 1px 1px 2px #633;
-	}
+	font-size: 0.6em;
+	text-align: center;
+	margin: 20px auto;
+	border-top: 1px solid #000;
+	text-transform: uppercase;
+	border-radius: 2px;
+	box-shadow: 1px 1px 2px #633;
+}
