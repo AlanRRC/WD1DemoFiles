@@ -106,7 +106,7 @@ function hideMajor() {
  */
 function formFieldHasInput(fieldElement) {
 	// Check if the text field has a value
-	if (fieldElement.value == null || trim(fieldElement.value) == "") {
+	if (fieldElement.value == null || fieldElement.value.trim() == "") {
 		// Invalid entry
 		return false;
 	}
