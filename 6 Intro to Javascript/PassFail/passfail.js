@@ -1,10 +1,10 @@
 /*
 	Pass/Fail Demonstration 
-	March 12, 2020
+	March 3, 2023
 	Alan Simpson
 */
 
-function load(){
+const load = () => {
 
 	//	Event listeners for the buttons
 	let submit = document.getElementById("submit");
@@ -14,21 +14,21 @@ function load(){
 	clear.addEventListener("click", clearButton);
 }
 
-function checkData(){
+const checkData = () => {
 	//	Validate the data
 	//	Retrieve the data from the DOM
 
 }
 
-function displayData(name,mark){
+const displayData = (name, mark) => {
 	//	Declare variables
 
 }
 
 //	Clears the data in the form and hides the clear button
-function clearButton(){
-	let tbody = document.getElementsByTagName("tbody")[0];
-	while(tbody.firstChild){
+const clearButton = () => {
+	let tbody = document.getElementById("list");
+	while (tbody.firstChild) {
 		tbody.removeChild(tbody.firstChild);
 	}
 
@@ -38,7 +38,7 @@ function clearButton(){
 }
 
 //	Resets the form's inputs
-function resetFields(){
+const resetFields = () => {
 	document.getElementById("name").value = "";
 	document.getElementById("mark").value = "";
 	document.getElementById("name").focus();
